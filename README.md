@@ -4,7 +4,7 @@ ReadMe File for SYSC3303 Winter 2021 Project. This project implements an elevato
 
 # Instructions
 -  Extract the zip file
-    - UML and Sequence diagrams are within the fil and can be seen
+    - UML and Sequence diagrams are within the file and can be seen
 - Open Eclipse and click File->New->Project, then click General->Project, name the project whatever you like and click "Finish"
 - Click File->Import, choose "File System"
 - Browse for the extracted file, after that in the "Into Folder:" section browse for the new proect folder you made, then click "Finish"
