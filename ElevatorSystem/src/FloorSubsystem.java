@@ -6,8 +6,13 @@
  * @author Matthew
  *
  */
-public class FloorSubsystem {
+public class FloorSubsystem implements Runnable {
 
 	
 	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
 }
