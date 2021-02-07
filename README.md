@@ -1,6 +1,6 @@
 # Elevator-System
 
-ReadMe File for SYSC3303 Winter 2021 Project. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
+README File for SYSC3303 Project Iteration 1. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
 
 # Instructions For Setting Up
 -  Extract the zip file
