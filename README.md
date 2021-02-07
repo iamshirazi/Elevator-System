@@ -19,7 +19,7 @@ ReadMe File for SYSC3303 Winter 2021 Project. This project implements an elevato
 - Controller: This is the controller of our system, run it to run the program
 - Input: This is the input file for the floor subsystem in the format: time, current floor number, up/down direction, car button
 
-# Distrubution of Work (First name is Main, second is helper)
+# Distrubution of Work (First name is Main programmer, second is helping programmer)
 - Controller Class: Ahmad and Matthew
 - Input Class: Albara'a and Chris
 - Floor Class: Chris and Jamil
