@@ -1,6 +1,6 @@
 # Elevator-System
 
-README File for SYSC3303 Project Iteration 1. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
+README File for SYSC3303 Project Iteration 2. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
 
 # Instructions For Setting Up
 -  Extract the zip file
@@ -13,10 +13,10 @@ README File for SYSC3303 Project Iteration 1. This project implements an elevato
 - Open the Controller class and run it
 
 # Class Names Explained
-- Floor: This is our floor subsystem, hence we called it floor
-- Elevator: This is our elevator subsystem, hence we called it elevator
-- Scheduler: This is our scheduler subsystem, hence we called it scheduler
-- Controller: This is the controller of our system, run it to run the program
+- Floor: This is our floor subsystem
+- Elevator: This is our elevator subsystem
+- Scheduler: This is our scheduler subsystem
+- Controller: This is the controller of our system
 - Input: This is the input file for the floor subsystem in the format: time, current floor number, up/down direction, car button
 
 # Distrubution of Work (First name is Main programmer, second is helping programmer)
@@ -25,7 +25,7 @@ README File for SYSC3303 Project Iteration 1. This project implements an elevato
 - Floor Class: Chris and Jamil
 - Elevator Class: Matthew and Ahmad
 - Scheduler: Jamil and Chris
-- Test Class: Albara'a and Ahmad 
-
+- Test Class: Jamil and Albara'a
+ 
 # Authors
 Jamil Dergham, Christopher Langlois, Matthew Shirazi, Ahmad Abuoudeh, Albara'a Salem 
