@@ -12,6 +12,10 @@ README File for SYSC3303 Project Iteration 2. This project implements an elevato
 - Open all classes by double-clicking on each file inside the src subfolder
 - Open the Controller class and run it
 
+# Instruction For Testing
+- To test for functioniality, run the ControllerTest.java class, run it as a Junit
+- To test the full functionality, run Controller.java
+
 # Class Names Explained
 - Floor: This is our floor subsystem
 - Elevator: This is our elevator subsystem
