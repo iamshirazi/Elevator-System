@@ -1,6 +1,8 @@
 # Elevator-System
 
-README File for SYSC3303 Project Iteration 2. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
+README File for SYSC3303 Project Iteration 3. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
+
+In this iteration, we refactored our system to be able to handle multiple requests and multiple elevators. We also split our system into three processes. 
 
 # Instructions For Setting Up Eclipse
 -  Extract the zip file
@@ -33,7 +35,7 @@ README File for SYSC3303 Project Iteration 2. This project implements an elevato
 - Scheduler: Chris
 - Elevator: Jamil and Matthew
 - Tests: 
-- UML Diagram:
+- UML Diagram: 
 - Sequence Diagram: Jamil and Ahmad
  
 # Authors
