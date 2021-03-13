@@ -10,16 +10,10 @@ README File for SYSC3303 Project Iteration 2. This project implements an elevato
 - Browse for the extracted file, after that in the "Into Folder:" section browse for the new proect folder you made, then click "Finish"
 - Click File->Open File and go to the project folder you made and go into the src subfolder, there you will see all of the classes
 - Open all classes by double-clicking on each file inside the src subfolder
-- Open the Controller class and run it
-
-# Instructions For Setting Up Carleton VPN
-NOTE: If you already have the Carleton VPN installed (Cisco AnyConnect) then ignore steps 1 - 
-- First go to https://carleton.ca/its/help-centre/remote-access/vpn-for-mac-osx/ (There are other options on the left-hand side if your OS isn't MacOS)
-- 
+- Open the Controller classes for all 3 subsystems and run them
 
 # Instruction For Testing
-- To test for functioniality, run the ControllerTest.java class, run it as a Junit
-- To test the full functionality, run Controller.java
+- Run the test class
 
 # Class Names Explained
 - Floor: This is our floor subsystem
@@ -27,14 +21,20 @@ NOTE: If you already have the Carleton VPN installed (Cisco AnyConnect) then ign
 - Scheduler: This is our scheduler subsystem
 - Controller: This is the controller of our system
 - Input: This is the input file for the floor subsystem in the format: time, current floor number, up/down direction, car button
+- FloorController: Controller for the floor, intializes the threads and starts them
+- ElevatorController: Controller for the elevator, intializes the threads and starts them
+- SchedulerController: Controller for the scheduler, intializes the threads and starts them 
 
 # Distrubution of Work (First name is Main programmer, second is helping programmer)
-- Controller Class: Ahmad and Matthew
-- Input Class: Albara'a and Chris
-- Floor Class: Chris and Jamil
-- Elevator Class: Matthew and Ahmad
-- Scheduler: Jamil and Chris
-- Test Class: Jamil and Albara'a
+- ElevatorController: Jamil and Matthew
+- FloorController: Jamil and Albara'a
+- SchedulerController: Chris
+- Floor: Albara'a
+- Scheduler: Chris
+- Elevator: Jamil and Matthew
+- Tests: 
+- UML Diagram:
+- Sequence Diagram: Jamil and Ahmad
  
 # Authors
 Jamil Dergham, Christopher Langlois, Matthew Shirazi, Ahmad Abuoudeh, Albara'a Salem 
