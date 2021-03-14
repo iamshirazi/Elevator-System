@@ -17,8 +17,6 @@ In this iteration, we refactored our system to be able to handle multiple reques
 - There should be 3 console windows for each controller, in the floor window you can set how many floors you want, in the elevator window you can set how many windows you want
 - The rest should take care of itself
 
-# Instruction For Testing
-- Run the test class
 
 # Class Names Explained
 - Floor: This is our floor subsystem
