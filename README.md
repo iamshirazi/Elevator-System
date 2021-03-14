@@ -29,13 +29,13 @@ In this iteration, we refactored our system to be able to handle multiple reques
 
 # Distrubution of Work (First name is Main programmer, second is helping programmer)
 - ElevatorController: Jamil and Matthew
-- FloorController: Jamil and Albara'a
+- FloorController: Albara'a and Matthew
 - SchedulerController: Chris
-- Floor: Albara'a
-- Scheduler: Chris
+- Floor: Matthew and Albara'a
+- Scheduler: Chris and Jamil/Matthew
 - Elevator: Jamil and Matthew
 - Tests: 
-- UML Diagram: 
+- UML Diagram: Ahmad
 - Sequence Diagram: Jamil and Ahmad
  
 # Authors
