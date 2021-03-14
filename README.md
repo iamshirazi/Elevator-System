@@ -34,7 +34,7 @@ In this iteration, we refactored our system to be able to handle multiple reques
 - Floor: Matthew and Albara'a
 - Scheduler: Chris and Jamil/Matthew
 - Elevator: Jamil and Matthew
-- Tests: 
+- Tests: Albara'a and Matthew
 - UML Diagram: Ahmad
 - Sequence Diagram: Jamil and Ahmad
  
