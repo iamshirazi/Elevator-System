@@ -12,7 +12,10 @@ In this iteration, we refactored our system to be able to handle multiple reques
 - Browse for the extracted file, after that in the "Into Folder:" section browse for the new proect folder you made, then click "Finish"
 - Click File->Open File and go to the project folder you made and go into the src subfolder, there you will see all of the classes
 - Open all classes by double-clicking on each file inside the src subfolder
-- Open the Controller classes for all 3 subsystems and run them
+- Open the Controller classes for all 3 subsystems
+- First run the FloorController and pin it, then the ElevatorController and pin it, then finally run the schedulerController and pin it
+- There should be 3 console windows for each controller, in the floor window you can set how many floors you want, in the elevator window you can set how many windows you want
+- The rest should take care of itself
 
 # Instruction For Testing
 - Run the test class
