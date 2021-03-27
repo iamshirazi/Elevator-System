@@ -1,8 +1,8 @@
 # Elevator-System
 
-README File for SYSC3303 Project Iteration 3. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
+README File for SYSC3303 Project Iteration 4. This project implements an elevator control system simulator using multi-threading. The different sub-system threads send information to each through data packets and sockets, the floor and elevator subsystems are clients, and the scheduler is a server.
 
-In this iteration, we refactored our system to be able to handle multiple requests and multiple elevators. We also split our system into three processes. 
+In this iteration, we refactored our system to be able to handle multiple requests and multiple elevators. As well as added error detection, with corresponding error handling. 
 
 # Instructions For Setting Up Eclipse
 -  Extract the zip file
@@ -22,22 +22,18 @@ In this iteration, we refactored our system to be able to handle multiple reques
 - Floor: This is our floor subsystem
 - Elevator: This is our elevator subsystem
 - Scheduler: This is our scheduler subsystem
-- Controller: This is the controller of our system
 - Input: This is the input file for the floor subsystem in the format: time, current floor number, up/down direction, car button
+- TimeStampComparator: This is a comparator class, that specifically compares the times of the elevator requests
 - FloorController: Controller for the floor, intializes the threads and starts them
 - ElevatorController: Controller for the elevator, intializes the threads and starts them
 - SchedulerController: Controller for the scheduler, intializes the threads and starts them 
 
 # Distrubution of Work (First name is Main programmer, second is helping programmer)
-- ElevatorController: Jamil and Matthew
-- FloorController: Albara'a and Matthew
-- SchedulerController: Chris
-- Floor: Matthew and Albara'a
-- Scheduler: Chris and Jamil/Matthew
-- Elevator: Chris and Jamil
-- Tests: Albara'a and Matthew
-- UML Diagram: Albara'a and Ahmad
-- Sequence Diagram: Jamil and Ahmad
+There wasn't that much work to be done for this iteration, it was very quick, but there was still some debugging from the last version so I will include that
+- Debugging: Chris and Matthew
+- Error Detection and Handling: Jamil and Albara'a
+- Test Cases: Jamil and Ahmad
+- UML and Sequence Diagrams: Albara'a
  
 # Authors
 Jamil Dergham, Christopher Langlois, Matthew Shirazi, Ahmad Abuoudeh, Albara'a Salem 
